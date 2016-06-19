@@ -65,34 +65,46 @@
     
     Animal* animalObj = [[Animal alloc] init];
     animalObj.nickName = @"Benny";
+    [animalObj setKind:mammal];
+    [animalObj setIll:YES];
     
     Shark* sharkObj = [[Shark alloc] init];
     sharkObj.nickName = @"Sharpy";
+    [sharkObj setKind:fish];
+    [sharkObj setIll:NO];
     
     Animal* cowe = [[Animal alloc] init];
     cowe.nickName = @"Star";
+    cowe.kind = mammal;
+    cowe.ill = YES;
     
     Animal* parrot = [[Animal alloc] init];
     parrot.nickName = @"Chicko";
+    parrot.kind = bird;
+    parrot.ill = NO;
     
     Animal* monkey = [[Animal alloc] init];
     monkey.nickName = @"Bananna";
+    monkey.kind = mammal;
+    monkey.ill = NO;
     
     Animal* raven = [[Animal alloc] init];
     raven.nickName =  @"Caaaar";
-
+    raven.kind = bird;
+    raven.ill = YES;
+    
     // NSArray* house = [[NSArray alloc] initWithObjects:swimmerObj, bicyclistObj, runnerObj, swimmerObj, devObj, animalObj, hummanoidObj, sharkObj, nil];
     // [self getInfoAbout:house];
     
-    // Star LEVEL
+    /****** Star level ******/
     
     NSArray* animalGroup = [[NSArray alloc] initWithObjects:animalObj, sharkObj, cowe, parrot, monkey, raven, nil];
     NSArray* fellowGroup = [[NSArray alloc] initWithObjects:swimmerObj, bicyclistObj, runnerObj, devObj, nil];
     
     //[self getInfoAboutAnimal:animalGroup andHuman:fellowGroup];
     
+    /****** Superman level ******/
     
-    // Superman level
     NSArray* allKingOfMammal = [fellowGroup arrayByAddingObjectsFromArray:animalGroup];
     
     NSArray* sortedArray = [allKingOfMammal sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
@@ -110,6 +122,7 @@
     [sortedArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSLog(@"%ld: %@", (unsigned long)idx, obj);
     }];
+    
     return YES;
     
 }
