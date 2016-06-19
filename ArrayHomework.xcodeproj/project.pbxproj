@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7800DF601CA96A7B00ACC5D6 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800DF5F1CA96A7B00ACC5D6 /* Animal.m */; };
-		7851BC261CAAAB0100236706 /* Hummanoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851BC251CAAAB0100236706 /* Hummanoid.m */; };
-		7851BC291CAAAB2800236706 /* Shark.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851BC281CAAAB2800236706 /* Shark.m */; };
-		78A195961CA88A1100AA422E /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A195951CA88A1100AA422E /* Developer.m */; };
+		786024601D170097003145D4 /* Bicyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860245A1D170097003145D4 /* Bicyclist.m */; };
+		786024611D170097003145D4 /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860245B1D170097003145D4 /* Developer.m */; };
+		786024621D170097003145D4 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860245C1D170097003145D4 /* Human.m */; };
+		786024631D170097003145D4 /* Hummanoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860245D1D170097003145D4 /* Hummanoid.m */; };
+		786024641D170097003145D4 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860245E1D170097003145D4 /* Runner.m */; };
+		786024651D170097003145D4 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860245F1D170097003145D4 /* Swimmer.m */; };
+		7860246A1D1700A4003145D4 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 786024681D1700A4003145D4 /* Animal.m */; };
+		7860246B1D1700A4003145D4 /* Shark.m in Sources */ = {isa = PBXBuildFile; fileRef = 786024691D1700A4003145D4 /* Shark.m */; };
 		78FBAB741C9CDE52000A7AB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBAB731C9CDE52000A7AB6 /* main.m */; };
 		78FBAB771C9CDE52000A7AB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBAB761C9CDE52000A7AB6 /* AppDelegate.m */; };
 		78FBAB7A1C9CDE52000A7AB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBAB791C9CDE52000A7AB6 /* ViewController.m */; };
@@ -19,10 +23,6 @@
 		78FBAB821C9CDE52000A7AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FBAB801C9CDE52000A7AB6 /* LaunchScreen.storyboard */; };
 		78FBAB8D1C9CDE52000A7AB6 /* ArrayHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBAB8C1C9CDE52000A7AB6 /* ArrayHomeworkTests.m */; };
 		78FBAB981C9CDE52000A7AB6 /* ArrayHomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBAB971C9CDE52000A7AB6 /* ArrayHomeworkUITests.m */; };
-		78FBABA71C9CDE77000A7AB6 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBABA61C9CDE77000A7AB6 /* Human.m */; };
-		78FBABAA1C9CE694000A7AB6 /* Bicyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBABA91C9CE694000A7AB6 /* Bicyclist.m */; };
-		78FBABAD1C9CE728000A7AB6 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBABAC1C9CE728000A7AB6 /* Runner.m */; };
-		78FBABB01C9CE741000A7AB6 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBABAF1C9CE741000A7AB6 /* Swimmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +43,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7800DF5E1CA96A7B00ACC5D6 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Animal.h; path = ../Animal.h; sourceTree = "<group>"; };
-		7800DF5F1CA96A7B00ACC5D6 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Animal.m; path = ../Animal.m; sourceTree = "<group>"; };
-		7851BC241CAAAB0100236706 /* Hummanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hummanoid.h; sourceTree = "<group>"; };
-		7851BC251CAAAB0100236706 /* Hummanoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hummanoid.m; sourceTree = "<group>"; };
-		7851BC271CAAAB2800236706 /* Shark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shark.h; sourceTree = "<group>"; };
-		7851BC281CAAAB2800236706 /* Shark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shark.m; sourceTree = "<group>"; };
-		78A195941CA88A1100AA422E /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Developer.h; path = ../Developer.h; sourceTree = "<group>"; };
-		78A195951CA88A1100AA422E /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Developer.m; path = ../Developer.m; sourceTree = "<group>"; };
+		786024541D170097003145D4 /* Bicyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bicyclist.h; path = humanGroup/Bicyclist.h; sourceTree = "<group>"; };
+		786024551D170097003145D4 /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Developer.h; path = humanGroup/Developer.h; sourceTree = "<group>"; };
+		786024561D170097003145D4 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Human.h; path = humanGroup/Human.h; sourceTree = "<group>"; };
+		786024571D170097003145D4 /* Hummanoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hummanoid.h; path = humanGroup/Hummanoid.h; sourceTree = "<group>"; };
+		786024581D170097003145D4 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Runner.h; path = humanGroup/Runner.h; sourceTree = "<group>"; };
+		786024591D170097003145D4 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Swimmer.h; path = humanGroup/Swimmer.h; sourceTree = "<group>"; };
+		7860245A1D170097003145D4 /* Bicyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bicyclist.m; path = humanGroup/Bicyclist.m; sourceTree = "<group>"; };
+		7860245B1D170097003145D4 /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Developer.m; path = humanGroup/Developer.m; sourceTree = "<group>"; };
+		7860245C1D170097003145D4 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Human.m; path = humanGroup/Human.m; sourceTree = "<group>"; };
+		7860245D1D170097003145D4 /* Hummanoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hummanoid.m; path = humanGroup/Hummanoid.m; sourceTree = "<group>"; };
+		7860245E1D170097003145D4 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Runner.m; path = humanGroup/Runner.m; sourceTree = "<group>"; };
+		7860245F1D170097003145D4 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Swimmer.m; path = humanGroup/Swimmer.m; sourceTree = "<group>"; };
+		786024661D1700A4003145D4 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Animal.h; path = animalGroup/Animal.h; sourceTree = "<group>"; };
+		786024671D1700A4003145D4 /* Shark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shark.h; path = animalGroup/Shark.h; sourceTree = "<group>"; };
+		786024681D1700A4003145D4 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Animal.m; path = animalGroup/Animal.m; sourceTree = "<group>"; };
+		786024691D1700A4003145D4 /* Shark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shark.m; path = animalGroup/Shark.m; sourceTree = "<group>"; };
 		78FBAB6F1C9CDE52000A7AB6 /* ArrayHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrayHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FBAB731C9CDE52000A7AB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78FBAB751C9CDE52000A7AB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,14 +75,6 @@
 		78FBAB931C9CDE52000A7AB6 /* ArrayHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FBAB971C9CDE52000A7AB6 /* ArrayHomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayHomeworkUITests.m; sourceTree = "<group>"; };
 		78FBAB991C9CDE52000A7AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78FBABA51C9CDE77000A7AB6 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
-		78FBABA61C9CDE77000A7AB6 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
-		78FBABA81C9CE694000A7AB6 /* Bicyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bicyclist.h; sourceTree = "<group>"; };
-		78FBABA91C9CE694000A7AB6 /* Bicyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bicyclist.m; sourceTree = "<group>"; };
-		78FBABAB1C9CE728000A7AB6 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
-		78FBABAC1C9CE728000A7AB6 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
-		78FBABAE1C9CE741000A7AB6 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
-		78FBABAF1C9CE741000A7AB6 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,34 +102,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7800DF661CA972A100ACC5D6 /* animalGroup */ = {
+		7860246C1D1700E0003145D4 /* humanGroup */ = {
 			isa = PBXGroup;
 			children = (
-				7800DF5E1CA96A7B00ACC5D6 /* Animal.h */,
-				7800DF5F1CA96A7B00ACC5D6 /* Animal.m */,
-				7851BC241CAAAB0100236706 /* Hummanoid.h */,
-				7851BC251CAAAB0100236706 /* Hummanoid.m */,
-				7851BC271CAAAB2800236706 /* Shark.h */,
-				7851BC281CAAAB2800236706 /* Shark.m */,
+				7860245F1D170097003145D4 /* Swimmer.m */,
+				786024541D170097003145D4 /* Bicyclist.h */,
+				786024551D170097003145D4 /* Developer.h */,
+				786024561D170097003145D4 /* Human.h */,
+				786024571D170097003145D4 /* Hummanoid.h */,
+				786024581D170097003145D4 /* Runner.h */,
+				786024591D170097003145D4 /* Swimmer.h */,
+				7860245A1D170097003145D4 /* Bicyclist.m */,
+				7860245B1D170097003145D4 /* Developer.m */,
+				7860245C1D170097003145D4 /* Human.m */,
+				7860245D1D170097003145D4 /* Hummanoid.m */,
+				7860245E1D170097003145D4 /* Runner.m */,
 			);
-			name = animalGroup;
+			name = humanGroup;
 			sourceTree = "<group>";
 		};
-		7800DF671CA972B900ACC5D6 /* fellowGroup */ = {
+		7860246D1D1700FC003145D4 /* animalGroup */ = {
 			isa = PBXGroup;
 			children = (
-				78FBABA51C9CDE77000A7AB6 /* Human.h */,
-				78FBABA61C9CDE77000A7AB6 /* Human.m */,
-				78FBABA81C9CE694000A7AB6 /* Bicyclist.h */,
-				78FBABA91C9CE694000A7AB6 /* Bicyclist.m */,
-				78FBABAB1C9CE728000A7AB6 /* Runner.h */,
-				78FBABAC1C9CE728000A7AB6 /* Runner.m */,
-				78FBABAE1C9CE741000A7AB6 /* Swimmer.h */,
-				78FBABAF1C9CE741000A7AB6 /* Swimmer.m */,
-				78A195941CA88A1100AA422E /* Developer.h */,
-				78A195951CA88A1100AA422E /* Developer.m */,
+				786024661D1700A4003145D4 /* Animal.h */,
+				786024671D1700A4003145D4 /* Shark.h */,
+				786024681D1700A4003145D4 /* Animal.m */,
+				786024691D1700A4003145D4 /* Shark.m */,
 			);
-			name = fellowGroup;
+			name = animalGroup;
 			sourceTree = "<group>";
 		};
 		78FBAB661C9CDE52000A7AB6 = {
@@ -155,10 +155,10 @@
 		78FBAB711C9CDE52000A7AB6 /* ArrayHomework */ = {
 			isa = PBXGroup;
 			children = (
+				7860246D1D1700FC003145D4 /* animalGroup */,
+				7860246C1D1700E0003145D4 /* humanGroup */,
 				78FBAB751C9CDE52000A7AB6 /* AppDelegate.h */,
 				78FBAB761C9CDE52000A7AB6 /* AppDelegate.m */,
-				7800DF671CA972B900ACC5D6 /* fellowGroup */,
-				7800DF661CA972A100ACC5D6 /* animalGroup */,
 				78FBAB781C9CDE52000A7AB6 /* ViewController.h */,
 				78FBAB791C9CDE52000A7AB6 /* ViewController.m */,
 				78FBAB7B1C9CDE52000A7AB6 /* Main.storyboard */,
@@ -326,17 +326,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7851BC261CAAAB0100236706 /* Hummanoid.m in Sources */,
+				786024601D170097003145D4 /* Bicyclist.m in Sources */,
 				78FBAB7A1C9CDE52000A7AB6 /* ViewController.m in Sources */,
-				78FBABAD1C9CE728000A7AB6 /* Runner.m in Sources */,
-				7851BC291CAAAB2800236706 /* Shark.m in Sources */,
-				78FBABAA1C9CE694000A7AB6 /* Bicyclist.m in Sources */,
 				78FBAB771C9CDE52000A7AB6 /* AppDelegate.m in Sources */,
-				78A195961CA88A1100AA422E /* Developer.m in Sources */,
+				7860246B1D1700A4003145D4 /* Shark.m in Sources */,
+				786024621D170097003145D4 /* Human.m in Sources */,
 				78FBAB741C9CDE52000A7AB6 /* main.m in Sources */,
-				7800DF601CA96A7B00ACC5D6 /* Animal.m in Sources */,
-				78FBABA71C9CDE77000A7AB6 /* Human.m in Sources */,
-				78FBABB01C9CE741000A7AB6 /* Swimmer.m in Sources */,
+				786024641D170097003145D4 /* Runner.m in Sources */,
+				786024611D170097003145D4 /* Developer.m in Sources */,
+				7860246A1D1700A4003145D4 /* Animal.m in Sources */,
+				786024631D170097003145D4 /* Hummanoid.m in Sources */,
+				786024651D170097003145D4 /* Swimmer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
