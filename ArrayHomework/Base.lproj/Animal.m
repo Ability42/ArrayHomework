@@ -22,6 +22,7 @@
 
 - (NSString *)description {
     NSString* tempStr;
+    NSString* enumStr;
     NSString* allInform;
     
     if (_ill) {
@@ -30,7 +31,15 @@
         tempStr = @"Animal is not ill";
     }
     
-    allInform = [NSString stringWithFormat:@"nickName: %@\nKind: %u\nIll: %@" ,_nickName, _kind, tempStr];
+    if (_kind == 0) {
+        enumStr = @"Bird";
+    } else if (_kind == 1) {
+        enumStr = @"Fish";
+    } else if (_kind == 2) {
+        enumStr = @"Mammal";
+    }
+    
+    allInform = [NSString stringWithFormat:@"\nnickName: %@\nKind: %@\nIll: %@" ,_nickName, enumStr, tempStr];
     return allInform;
 }
 
